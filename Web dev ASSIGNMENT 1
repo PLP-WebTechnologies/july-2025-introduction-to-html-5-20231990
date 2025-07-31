@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A sample web page demonstrating HTML5 semantic structure, accessibility, and SEO best practices." />
+  <meta name="keywords" content="HTML5, accessibility, SEO, web development, semantic tags" />
+  <meta name="author" content="Ngwava Jaqueline Kaloo" />
+  <title>Learn HTML5: Accessibility & SEO Basics</title>
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Accessible & SEO-Friendly Web Design</h1>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#principles">Principles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This page is built using only semantic HTML5 to help improve structure, accessibility, and SEO. It avoids using non-semantic tags like <code>&lt;div&gt;</code> unnecessarily and instead leverages proper HTML5 landmarks.</p>
+      <figure>
+        <img src="web-structure.png" alt="Illustration of semantic HTML structure" />
+        <figcaption>Figure 1: Example of semantic layout using header, nav, main, and footer.</figcaption>
+      </figure>
+    </section>
+
+    <section id="principles">
+      <h2>Key Principles</h2>
+      
+      <article>
+        <h3>Semantic HTML</h3>
+        <p>Using semantic tags like <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;nav&gt;</code> improves readability for both users and machines (like screen readers and search engines).</p>
+      </article>
+
+      <article>
+        <h3>Accessibility</h3>
+        <p>Elements like <code>aria-label</code>, appropriate <code>alt</code> attributes, and a logical heading structure enhance accessibility for people using assistive technologies.</p>
+      </article>
+
+      <article>
+        <h3>SEO Best Practices</h3>
+        <p>Search engines favor pages with clear titles, meaningful headings, and descriptive metadata. This page includes all of those elements to improve discoverability.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you have any feedback or questions, feel free to <a href="mailto:jngwava18@gmail.com">email me</a>.</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Ngwava Jaqueline Kaloo. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
