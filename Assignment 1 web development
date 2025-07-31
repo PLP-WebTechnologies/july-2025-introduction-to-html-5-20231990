@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A sample web page demonstrating HTML5 semantic structure, accessibility, and SEO best practices." />
+  <meta name="keywords" content="HTML5, accessibility, SEO, web development, semantic tags" />
+  <meta name="author" content="Ngwava Jaqueline Kaloo" />
+  <title>Learn HTML5: Accessibility & SEO Basics</title>
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Accessible & SEO-Friendly Web Design</h1>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#principles">Principles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This page is built using only semantic HTML5 to help improve structure, accessibility, and SEO. It avoids using non-semantic tags like <code>&lt;div&gt;</code> unnecessarily and instead leverages proper HTML5 landmarks.</p>
+      <figure>
+        <img src="web-structure.png" alt="Illustration of semantic HTML structure" />
+        <figcaption>Figure 1: Example of semantic layout using header, nav, main, and footer.</figcaption>
+      </figure>
+    </section>
+
+    <section id="principles">
+      <h2>Key Principles</h2>
+      
+      <article>
+        <h3>Semantic HTML</h3>
+        <p>Using semantic tags like <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;nav&gt;</code> improves readability for both users and machines (like screen readers and search engines).</p>
+      </article>
+
+      <article>
+        <h3>Accessibility</h3>
+        <p>Elements like <code>aria-label</code>, appropriate <code>alt</code> attributes, and a logical heading structure enhance accessibility for people using assistive technologies.</p>
+      </article>
+
+      <article>
+        <h3>SEO Best Practices</h3>
+        <p>Search engines favor pages with clear titles, meaningful headings, and descriptive metadata. This page includes all of those elements to improve discoverability.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you have any feedback or questions, feel free to <a href="mailto:jngwava18@gmail.com">email me</a>.</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Ngwava Jaqueline Kaloo. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+🔍 What’s Improved?
+Feature	Enhancement
+Metadata	Added description, keywords, and author meta tags for SEO
+Alt Text	Added descriptive alt to the image for accessibility
+ARIA Roles	Used roles like banner, navigation, main, and contentinfo
+Semantic Tags	Used header, nav, main, section, article, footer, and figure
+Logical Headings	Follows proper <h1> to <h3> order for screen readers and SEO
+
+✅ What to Do Next
+Create the file: Save the HTML above as index.html in your GitHub Classroom repo folder.
+
+Add an image: If you don’t have web-structure.png, you can use any relevant image or delete the <figure> block.
+
+Customize: Replace any sample text (e.g., name, email) with your actual information.
+
+Push to GitHub:
+
+bash
+Copy
+Edit
+git add index.html
+git commit -m "Added HTML5 page with accessibility and SEO features"
+git push
+Would you like help:
+
+Adding an image or placeholder image?
+
+Verifying your Git commit and push?
+
+Getting feedback on your final code?
+
+Let me know what you’d like to do next.
+
+
+
+
+
+
+
+
+
+Ask ChatGPT
+You said:
+were do i find the GitHub Classroom repo folder.
+
+
+ChatGPT said:
+Good question! Here's how to find your GitHub Classroom repo folder:
+
+✅ Step 1: Accept the Assignment
+You already visited this link:
+👉 https://classroom.github.com/a/jecSxI3G
+
+Once you click “Accept the assignment”, GitHub will create a new repository for you. It will look like this:
+
+bash
+Copy
+Edit
+https://github.com/[your-username]/html-accessibility-seo-assignment
+Note:
+
+The repository name may vary, but it will be something similar.
+
+You’ll be redirected to your personal copy of the assignment repo.
+
+✅ Step 2: Clone the Repository to Your Computer
+Go to your newly created GitHub repo page.
+
+Click the green "Code" button.
+
+Copy the HTTPS URL (looks like https://github.com/your-username/your-repo-name.git).
+
+Open Git Bash, Command Prompt, or your terminal.
+
+Run:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/your-repo-name.git
+Replace with the actual link you copied.
+
+This will download the repo to your computer in a folder named after the repo.
+
+✅ Step 3: Open the Folder
+Now, on your computer:
+
+Open File Explorer or Finder.
+
+Navigate to the folder with your repo name (e.g., html-accessibility-seo-assignment).
+
+You’ll see files like README.md and maybe .gitignore.
+
+This is where you will create or paste your index.html file.
+
+✅ Step 4: Add and Push Your Changes
+Inside that folder:
+
+Save your index.html file.
+
+Open terminal in that folder (or navigate to it):
+
+bash
+Copy
+Edit
+cd path/to/your-repo-folder
+Run:
+
+bash
+Copy
+Edit
+git add index.html
+git commit -m "Add HTML5 semantic structure with accessibility and SEO"
+git push
+Would you like me to walk you through cloning the repo or checking if it's pushed successfully?
+
+
+
+
+
+
+
+
+
